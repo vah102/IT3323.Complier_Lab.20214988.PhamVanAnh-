@@ -1,0 +1,14 @@
+Program InvalidExample2; (* Example with intentional errors *)
+Var  
+    arr : array [1..10] of Char; 
+Function Calc(a : Integer, b : Char) : Integer (* Missing ':' after 'b' *) 
+    Begin 
+        If a != 0 Then (* ERR_INVALIDCOMPARATOR: '!=' is not valid in Pascal, use '<>' *) 
+            Calc := a + b  
+        Else  
+            Calc := Calc(a 1); (* ERR_INVALIDSYNTAX: Missing operator between 'a' and '1' *) 
+    End; 
+Begin 
+    arr[.2.] := 'XY'; (* ERR_INVALIDSYNTAX: '.2.' is an invalid index *) 
+    Call Calc(3); (* ERR_INVALIDSYNTAX: 'Call' is not a valid Pascal keyword *) 
+End. (* InvalidExample2 *)
