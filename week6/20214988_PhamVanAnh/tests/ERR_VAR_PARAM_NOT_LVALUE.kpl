@@ -1,0 +1,10 @@
+Program EVPNLV;
+var i: integer;
+PROCEDURE foo(VAR x: INTEGER);
+BEGIN
+  x := x + 1;
+END;
+
+begin
+  CALL foo(a); 
+end.

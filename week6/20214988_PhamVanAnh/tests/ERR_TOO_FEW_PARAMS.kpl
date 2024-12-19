@@ -1,0 +1,8 @@
+Program ETFP;
+procedure Proc(a: char; b: char);
+begin
+end;
+
+begin
+  call Proc('b');
+end.

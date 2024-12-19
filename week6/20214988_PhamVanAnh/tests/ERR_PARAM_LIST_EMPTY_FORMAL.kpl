@@ -1,0 +1,8 @@
+Program EPLEF;
+procedure Proc();
+begin
+end;
+
+begin
+  call Proc(a);  
+end.

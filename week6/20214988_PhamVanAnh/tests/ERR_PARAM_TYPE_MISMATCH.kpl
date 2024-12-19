@@ -1,0 +1,8 @@
+Program EPTM;
+procedure Proc(a: integer);
+begin
+end;
+
+begin
+  call Proc('c');
+end.

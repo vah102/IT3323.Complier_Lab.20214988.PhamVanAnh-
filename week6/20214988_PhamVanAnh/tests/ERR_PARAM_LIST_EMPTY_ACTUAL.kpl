@@ -1,0 +1,10 @@
+Program EPLEA;
+procedure Proc(a: integer);
+begin
+  writeln('Value of a: ', a);
+end;
+
+begin
+  Proc; // Gọi Proc mà không truyền tham số
+end.
+.

@@ -1,0 +1,9 @@
+Program EAD;
+type
+  Arr = array (. 10 .) of integer;
+var
+  a: Arr;
+  b: integer;
+begin
+  b := a(.5, 6.);  
+end.

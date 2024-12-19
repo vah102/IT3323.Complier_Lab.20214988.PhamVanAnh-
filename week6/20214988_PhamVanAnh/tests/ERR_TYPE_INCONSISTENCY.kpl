@@ -1,0 +1,5 @@
+Program INCONSISTENCY;
+var x: integer;
+begin
+  x := 'n';  
+end.

@@ -1,0 +1,16 @@
+PROGRAM  EXAMPLE4;  (* Example 4 *)
+
+VAR I:CHAR;
+
+FUNCTION SUB : INTEGER;
+BEGIN
+  
+END;
+
+FUNCTION SUM : INTEGER;
+BEGIN
+  SUB:=2
+END;
+
+BEGIN
+END.  (* Example 4 *)

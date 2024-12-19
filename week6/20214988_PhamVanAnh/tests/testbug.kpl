@@ -1,0 +1,12 @@
+Program ECT;
+PROCEDURE Increment(VAR N: INTEGER);
+BEGIN
+  N := N + 1;
+END;
+
+BEGIN
+  CALL Increment(5);  (* Lỗi: Tham số thực sự phải là LValue *)
+END.
+
+
+

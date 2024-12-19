@@ -1,0 +1,8 @@
+Program ETMP;
+procedure Proc(a: char);
+begin
+end;
+
+begin
+  call Proc('c', 10);
+end.

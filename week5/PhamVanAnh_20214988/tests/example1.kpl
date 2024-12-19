@@ -1,0 +1,4 @@
+Program Test;
+Begin
+    a:= 28;
+End.

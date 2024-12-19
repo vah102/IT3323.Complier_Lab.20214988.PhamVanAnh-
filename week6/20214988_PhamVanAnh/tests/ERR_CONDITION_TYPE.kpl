@@ -1,0 +1,7 @@
+Program ConditionType;
+var
+  x: integer;
+  y: char;
+begin
+  if x = y then WRITE(x);
+end.

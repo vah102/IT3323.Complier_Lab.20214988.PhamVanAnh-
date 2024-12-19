@@ -1,0 +1,4 @@
+Program INVALIDCONSTANT;
+const x = -'A';
+begin
+end.
